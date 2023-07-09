@@ -1,0 +1,92 @@
+* {
+    border: 1px black solid;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+.title,
+.info,
+.quote,
+.cta {
+    flex-basis: 20%;
+}
+
+.header,
+.footer {
+    flex-basis: 10%;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 128px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 128px;
+}
+
+.placeholder {
+    width: 200px;
+    height: 200px;
+}
+
+.info-container {
+    flex-direction: column;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 64px;
+}
+
+.card {
+    flex-basis: 100px;
+    height: 100px;
+    /* flex-shrink: 0; */
+}
+
+.quote-container,
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    /* width: 400px;
+    height: 200px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    /* width: 200px;
+    height: 100px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
