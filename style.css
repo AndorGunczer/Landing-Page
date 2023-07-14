@@ -58,13 +58,13 @@ ul {
 }
 
 .card {
-    flex-basis: 100px;
-    height: 100px;
+    flex-basis: 150px;
+    height: 150px;
 }
 
 .card-image {
-    flex-basis: 100px;
-    height: 100px;
+    flex-basis: 150px;
+    height: 150px;
 }
 
 .quote-container,
