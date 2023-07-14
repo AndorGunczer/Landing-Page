@@ -17,12 +17,12 @@ ul {
 .info,
 .quote,
 .cta {
-    flex-basis: 20%;
+    flex-basis: 22.5%;
 }
 
 .header,
 .footer {
-    flex-basis: 10%;
+    flex-basis: 5%;
 }
 
 .header-container {
@@ -36,16 +36,17 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 128px;
+    padding: 128px 128px;
 }
 
 .placeholder {
-    width: 200px;
+    width: 400px;
     height: 200px;
 }
 
 .info-container {
     flex-direction: column;
+    padding: 64px 0;
 }
 
 .card-container {
@@ -59,7 +60,6 @@ ul {
 .card {
     flex-basis: 100px;
     height: 100px;
-    /* flex-shrink: 0; */
 }
 
 .quote-container,
@@ -67,6 +67,10 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.quote-container {
+    padding: 100px 0;;
 }
 
 .cta {
@@ -83,10 +87,16 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 64px 0;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#info-title {
+    margin-top: 0;
+    margin-bottom: 40px;
 }
