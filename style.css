@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
 * {
     border: 1px black solid;
 }
@@ -46,7 +48,7 @@ ul {
 
 .info-container {
     flex-direction: column;
-    padding: 64px 0 200px 0;
+    padding: 80px 0 100px 0;
 }
 
 .card-container {
@@ -60,11 +62,38 @@ ul {
 .card {
     flex-basis: 150px;
     height: 150px;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
 }
 
 .card-image {
-    flex-basis: 150px;
+    width: 150px;
     height: 150px;
+}
+
+.card-front {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    backface-visibility: hidden;
+    background: blue;
+}
+
+.card-back {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    backface-visibility: hidden;
+    background: orange;
+    transform: rotateY(180deg);
 }
 
 .quote-container,
@@ -104,4 +133,19 @@ ul {
 #info-title {
     margin-top: 0;
     margin-bottom: 40px;
+}
+
+#cta-button {
+    /* flex-shrink: 0; */
+    
+}
+
+#header-title {
+    font-family: 'Aboreto', cursive;
+    font-size: 32px;
+}
+
+#title-title {
+    font-family: 'Aboreto', cursive;
+    font-size: 100px;
 }
