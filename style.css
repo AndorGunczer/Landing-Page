@@ -136,6 +136,16 @@ ul {
     text-align: center;
 }
 
+.link-basic {
+    text-decoration: none;
+    color: black;
+}
+
+#title-me {
+    width: 400px;
+    height: 400px;
+}
+
 #info-title {
     margin-top: 0;
     margin-bottom: 40px;
